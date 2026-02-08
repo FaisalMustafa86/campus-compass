@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X } from "lucide-react"; // Removed GraduationCap
 import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
@@ -19,14 +19,23 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-md border-b border-navy-light/30">
       <div className="container-wide mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center group-hover:scale-105 transition-transform">
-              <GraduationCap className="w-6 h-6 text-accent-foreground" />
+          {/* Logo Section */}
+          <Link to="/" className="flex items-center gap-3 group">
+            {/* Image Container - Changed to rounded-full for circular logo */}
+            <div className="w-12 h-12 rounded-full overflow-hidden group-hover:scale-105 transition-transform bg-white/10">
+              <img
+                src="/nutechlogo.png"
+                alt="NUtech Logo"
+                className="w-full h-full object-contain"
+              />
             </div>
-            <div className="hidden sm:block">
-              <span className="text-lg font-heading font-bold text-primary-foreground">
-                Prestige University
+
+            <div className="flex flex-col">
+              <span className="text-lg font-heading font-bold text-primary-foreground leading-none">
+                NUtech
+              </span>
+              <span className="hidden sm:block text-xs font-medium text-primary-foreground/80">
+                National University of Technology
               </span>
             </div>
           </Link>
