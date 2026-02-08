@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+# NUTECH Virtual University Tour
 
-## Project info
+A modern virtual tour web application for **NUTECH Islamabad**, designed to allow users to explore the university campus online through interactive pages, images, and videos. This project is built as an academic and portfolio project using modern web technologies and professional development practices.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+The NUTECH Virtual University Tour provides an interactive digital experience of the university. It simulates a real campus visit by showcasing different locations and facilities in a structured, intuitive, and visually appealing interface. The project focuses on clean UI, responsive design, and scalable architecture.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- Professional landing page with a "Start Virtual Tour" button  
+- Virtual tour sections including:
+  - Campus  
+  - Classrooms  
+  - Laboratories  
+  - Library  
+  - Cafeteria  
+  - Hostels  
+  - Sports Complex  
+- Gallery page with images and videos  
+- About page with university information  
+- Contact page with form  
+- Fully responsive design  
+- Smooth transitions and modern UI components  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Frontend
+- React (Vite)  
+- TypeScript  
+- Tailwind CSS  
+- shadcn/ui  
 
-Follow these steps:
+### Backend (Planned / Optional)
+- Node.js  
+- Express.js  
+- MongoDB  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+---
+
+## Project Purpose
+
+This project was created for academic use and professional portfolio development. It demonstrates modern frontend architecture, user interface design, and real-world web application structure. The goal is to replicate the quality and experience of official university websites and virtual campus platforms.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js  
+- npm  
+
+### Installation
+
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+cd <PROJECT_FOLDER>
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
