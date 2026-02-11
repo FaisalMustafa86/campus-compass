@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
+import { supabase } from "@/integrations/supabase/client";
 
 const Contact = () => {
   const { toast } = useToast();
@@ -33,9 +34,20 @@ const Contact = () => {
     }
 
     setIsSubmitting(true);
-    // Simulate submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    
+    const { error } = await supabase.from("contact_messages").insert({
+      name: formData.name.trim(),
+      email: formData.email.trim(),
+      subject: formData.subject.trim() || null,
+      message: formData.message.trim(),
+    });
+
     setIsSubmitting(false);
+
+    if (error) {
+      toast({ title: "Something went wrong. Please try again.", variant: "destructive" });
+      return;
+    }
 
     toast({
       title: "Message Sent!",
@@ -182,7 +194,7 @@ const Contact = () => {
               {/* Map */}
               <div className="rounded-2xl overflow-hidden shadow-lg h-64">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0968143452456!2d-122.08385!3d37.42199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425dad8f%3A0x6c296c66619367e0!2sStanford%20University!5e0!3m2!1sen!2sus!4v1635000000000!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.0!2d73.01162744576253!3d33.62597507627508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDM3JzMzLjUiTiA3M8KwMDAnNDEuOSJF!5e0!3m2!1sen!2s!4v1635000000000!5m2!1sen!2s"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
