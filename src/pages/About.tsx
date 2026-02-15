@@ -74,10 +74,7 @@ const About = () => {
               </h3>
               <div className="h-1 w-12 rounded-full bg-accent mb-6" />
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Prestige University is dedicated to fostering intellectual curiosity, advancing knowledge through world-class research, and preparing students to become thoughtful, engaged leaders in an increasingly complex global society.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                We believe that education is the most powerful tool for transforming lives and communities. Our programs are designed to challenge students, inspire creativity, and build the critical thinking skills needed to address the world's most pressing challenges.
+                To advance knowledge and educate students in science, engineering, technologies and other areas of scholarship so as to grow knowledge economy and develop leaders, professionals and skilled workforce embodied with the spirit of discovery, innovation, entrepreneurship, social responsibilities and ethical practices to best serve the society and industry.
               </p>
             </motion.div>
 
