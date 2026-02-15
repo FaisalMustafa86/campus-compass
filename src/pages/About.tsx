@@ -89,10 +89,7 @@ const About = () => {
               </h3>
               <div className="h-1 w-12 rounded-full bg-accent mb-6" />
               <p className="text-muted-foreground leading-relaxed mb-4">
-                To be a globally recognized institution that leads in education innovation, produces groundbreaking research, and graduates leaders who make a positive impact on society.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                By 2030, we aim to be ranked among the top 50 universities worldwide, with campuses on three continents and partnerships with over 200 institutions globally.
+                To be a world-class technology driven research university committed to best serve society and industry through purposeful education, research and innovation.
               </p>
             </motion.div>
           </div>
