@@ -43,14 +43,14 @@ const About = () => {
         <div className="h-64 md:h-80 relative overflow-hidden">
           <img
             src={heroImg}
-            alt="Prestige University"
+            alt="NUTECH "
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-primary/70 to-primary/90" />
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center px-4">
               <SectionHeading
-                title="About Prestige University"
+                title="About NUTECH "
                 subtitle="A legacy of excellence, a future of innovation."
                 light
               />
