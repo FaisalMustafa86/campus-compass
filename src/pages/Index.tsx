@@ -16,8 +16,8 @@ import { useState } from "react";
 // Updated stats to reflect NUtech's profile
 const stats = [
   { value: "2018", label: "Established" },
-  { value: "Technology", label: "Focus Area" },
-  { value: "Industry", label: "Partnerships" },
+  { value: "5", label: "Academic Schools" },
+  { value: "50+", label: "Industry Partners" },
   { value: "100%", label: "Skills Driven" },
 ];
 
@@ -33,7 +33,7 @@ const Index = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="hero4.png" // Replaced with the provided campus image
+            src="https://qasgdwxoetlbvuzttgma.supabase.co/storage/v1/object/public/uniimages/main.JPG"
             alt="NUtech University Campus View"
             className="w-full h-full object-cover"
           />

@@ -30,7 +30,7 @@ const Gallery = () => {
         <div className="container-wide mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Campus Gallery"
-            subtitle="Browse through photos, videos, and highlights from events that define the vibrant life at Prestige University."
+          subtitle="Browse through photos, videos, and highlights from events that define the vibrant life at NUtech."
             light
           />
         </div>

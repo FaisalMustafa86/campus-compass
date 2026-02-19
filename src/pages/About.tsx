@@ -4,15 +4,15 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SectionHeading from "@/components/SectionHeading";
 import StatCard from "@/components/StatCard";
-import heroImg from "@/assets/hero-campus.jpg";
+const heroImg = "https://qasgdwxoetlbvuzttgma.supabase.co/storage/v1/object/public/uniimages/main.JPG";
 
 const timeline = [
-  { year: "1895", event: "University founded with 50 students and 5 faculty members" },
-  { year: "1920", event: "First engineering and science departments established" },
-  { year: "1955", event: "Campus expanded to 200 acres with modern facilities" },
-  { year: "1985", event: "Achieved national recognition for research excellence" },
-  { year: "2005", event: "Launched international exchange programs with 50+ universities" },
-  { year: "2020", event: "Ranked among top 100 universities globally" },
+  { year: "2018", event: "NUtech established — 'University for Industry' with motto 'Leading to Progress and Excellence'" },
+  { year: "2019", event: "First batch of undergraduate students enrolled in engineering and technology programs" },
+  { year: "2020", event: "NEIC (NUtech Entrepreneurship & Innovation Center) launched to foster startups" },
+  { year: "2021", event: "Expanded academic schools: NUSIT, NUSET, NUTL, NUSASH established" },
+  { year: "2022", event: "International MoUs signed with global universities for exchange programs" },
+  { year: "2024", event: "PAFIIC program launched — students sent to Finland for international industrial training" },
 ];
 
 const values = [
@@ -25,12 +25,12 @@ const values = [
 ];
 
 const stats = [
-  { value: "125+", label: "Years of Excellence" },
-  { value: "35,000+", label: "Students" },
-  { value: "2,500+", label: "Faculty" },
-  { value: "500+", label: "Research Papers/Year" },
-  { value: "150+", label: "Programs Offered" },
-  { value: "50+", label: "Global Partners" },
+  { value: "2018", label: "Year Founded" },
+  { value: "5", label: "Academic Schools" },
+  { value: "3", label: "Program Levels" },
+  { value: "50+", label: "Industry Partners" },
+  { value: "100+", label: "MoUs Signed" },
+  { value: "Global", label: "Outreach" },
 ];
 
 const About = () => {
@@ -43,15 +43,15 @@ const About = () => {
         <div className="h-64 md:h-80 relative overflow-hidden">
           <img
             src={heroImg}
-            alt="NUTECH "
+            alt="NUtech Campus"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-primary/70 to-primary/90" />
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center px-4">
               <SectionHeading
-                title="About NUTECH "
-                subtitle="A legacy of excellence, a future of innovation."
+                title="About NUtech"
+                subtitle="University for Industry — Leading to Progress and Excellence."
                 light
               />
             </div>
@@ -139,8 +139,8 @@ const About = () => {
       <section className="section-padding bg-background">
         <div className="container-wide mx-auto">
           <SectionHeading
-            title="Our History"
-            subtitle="Over a century of shaping minds and shaping the future."
+            title="Our Journey"
+            subtitle="From inception to becoming Pakistan's leading technology university."
           />
           <div className="max-w-3xl mx-auto relative">
             <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-border md:-translate-x-px" />
