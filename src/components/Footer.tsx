@@ -12,12 +12,12 @@ const Footer = () => {
                <div className="w-12 h-12 rounded-full overflow-hidden group-hover:scale-105 transition-transform bg-white/10">
               <img
                 src="/nutechlogo.png"
-                alt="NUtech Logo"
+                alt="NUTECH Logo"
                 className="w-full h-full object-contain"
               />
             </div>
               <div className="flex flex-col">
-                <span className="text-lg font-heading font-bold leading-none">NUtech</span>
+                <span className="text-lg font-heading font-bold leading-none">NUTECH</span>
                 <span className="text-xs text-primary-foreground/80">National University of Technology</span>
               </div>
             </div>
@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-navy-light/30 text-center text-sm text-primary-foreground/50">
-          <p>© {new Date().getFullYear()} National University of Technology (NUtech). All rights reserved.</p>
+          <p>© {new Date().getFullYear()} National University of Technology (NUTECH). All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -7,9 +7,9 @@ import StatCard from "@/components/StatCard";
 const heroImg = "https://qasgdwxoetlbvuzttgma.supabase.co/storage/v1/object/public/uniimages/main.JPG";
 
 const timeline = [
-  { year: "2018", event: "NUtech established — 'University for Industry' with motto 'Leading to Progress and Excellence'" },
+  { year: "2018", event: "NUTECH established — 'University for Industry' with motto 'Leading to Progress and Excellence'" },
   { year: "2019", event: "First batch of undergraduate students enrolled in engineering and technology programs" },
-  { year: "2020", event: "NEIC (NUtech Entrepreneurship & Innovation Center) launched to foster startups" },
+  { year: "2020", event: "NEIC (NUTECH Entrepreneurship & Innovation Center) launched to foster startups" },
   { year: "2021", event: "Expanded academic schools: NUSIT, NUSET, NUTL, NUSASH established" },
   { year: "2022", event: "International MoUs signed with global universities for exchange programs" },
   { year: "2024", event: "PAFIIC program launched — students sent to Finland for international industrial training" },
@@ -43,14 +43,14 @@ const About = () => {
         <div className="h-64 md:h-80 relative overflow-hidden">
           <img
             src={heroImg}
-            alt="NUtech Campus"
+            alt="NUTECH Campus"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-primary/70 to-primary/90" />
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center px-4">
               <SectionHeading
-                title="About NUtech"
+                title="About NUTECH"
                 subtitle="University for Industry — Leading to Progress and Excellence."
                 light
               />
