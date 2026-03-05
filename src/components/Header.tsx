@@ -25,14 +25,14 @@ const Header = () => {
             <div className="w-12 h-12 rounded-full overflow-hidden group-hover:scale-105 transition-transform bg-white/10">
               <img
                 src="/nutechlogo.png"
-                alt="NUtech Logo"
+                alt="NUTECH Logo"
                 className="w-full h-full object-contain"
               />
             </div>
 
             <div className="flex flex-col">
               <span className="text-lg font-heading font-bold text-primary-foreground leading-none">
-                NUtech
+                NUTECH
               </span>
               <span className="hidden sm:block text-xs font-medium text-primary-foreground/80">
                 National University of Technology

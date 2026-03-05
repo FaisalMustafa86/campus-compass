@@ -70,7 +70,7 @@ const Gallery = () => {
         <div className="container-wide mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Campus Gallery"
-            subtitle="Explore NUtech's facilities, labs, and campus life — organized by location and facility."
+            subtitle="Explore NUTECH's facilities, labs, and campus life — organized by location and facility."
             light
           />
         </div>

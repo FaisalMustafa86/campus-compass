@@ -13,7 +13,7 @@ import { useState } from "react";
 
 
 
-// Updated stats to reflect NUtech's profile
+// Updated stats to reflect NUTECH's profile
 const stats = [
   { value: "2018", label: "Established" },
   { value: "5", label: "Academic Schools" },
@@ -34,7 +34,7 @@ const Index = () => {
         <div className="absolute inset-0">
           <img
             src="https://qasgdwxoetlbvuzttgma.supabase.co/storage/v1/object/public/uniimages/main.JPG"
-            alt="NUtech University Campus View"
+            alt="NUTECH University Campus View"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/50 to-primary/80" />
@@ -58,7 +58,7 @@ const Index = () => {
             className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight"
           >
             Welcome to{" "}
-            <span className="text-gradient-gold">NUtech</span>
+            <span className="text-gradient-gold">NUTECH</span>
           </motion.h1>
 
           <motion.p
@@ -169,7 +169,7 @@ const Index = () => {
       <section className="bg-gradient-navy section-padding">
         <div className="container-wide mx-auto text-center">
           <SectionHeading
-            title="Ready to Join NUtech?"
+            title="Ready to Join NUTECH?"
             subtitle="Take the first step toward a future in technology. Schedule a campus visit or apply online today."
             light
           />
