@@ -58,10 +58,10 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: MapPin, label: "Address", value: "123 University Avenue, Academic City, ST 12345" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
-    { icon: Mail, label: "Email", value: "admissions@prestige.edu" },
-    { icon: Clock, label: "Office Hours", value: "Mon-Fri: 8AM-6PM, Sat: 9AM-4PM" },
+    { icon: MapPin, label: "Address", value: "Sector I-12, Islamabad, Pakistan" },
+    { icon: Phone, label: "Phone", value: "+92 51 5476809" },
+    { icon: Mail, label: "Email", value: "info@nutech.edu.pk" },
+    { icon: Clock, label: "Office Hours", value: "Mon-Fri: 8:30 AM - 4:30 PM" },
   ];
 
   return (
